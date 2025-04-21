@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FreshFarm Kenya</title>
+    <title>FreshFarm SmartHub</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,6 +14,12 @@
         }
         h1 {
             color: #2e7d32;
+        }
+        h2 {
+            color: #1e88e5;
+        }
+        h3 {
+            color: #555;
         }
         p {
             font-size: 18px;
@@ -26,17 +32,140 @@
         a:hover {
             text-decoration: underline;
         }
+        .section {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .category {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        .category img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .product-list {
+            flex: 1;
+            min-width: 300px;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to FreshFarm Kenya</h1>
-    <p>Order fresh farm products directly from us!</p>
-    <p>We offer:</p>
-    <ul style="list-style: none; padding: 0;">
-        <li>Tomatoes: KES 100/kg</li>
-        <li>Sukuma Wiki: KES 50/bunch</li>
-        <li>Avocados: KES 30/each</li>
-    </ul>
-    <p><a href="https://wa.me/+14155238886">Chat with us on WhatsApp to place an order!</a></p>
+    <h1>Welcome to FreshFarm SmartHub</h1>
+    <p>Empowering Kenyan farmers with AI, IoT, and blockchain technology!</p>
+
+    <div class="section">
+        <h2>Our Products</h2>
+        <p>We connect farmers to markets with a wide range of farm products:</p>
+
+        <div class="category">
+            <img src="images/maize.jpg" alt="Maize">
+            <div class="product-list">
+                <h3>Crops</h3>
+                <ul>
+                    <li>Maize: KES 60/kg</li>
+                    <li>Sugarcane: KES 50/kg</li>
+                    <li>Wheat: KES 70/kg</li>
+                    <li>Sweet Potatoes (White, Red, Purple, Yellow-Fleshed): KES 40/kg</li>
+                    <li>Cabbages: KES 30/head</li>
+                    <li>Onions: KES 80/kg</li>
+                    <li>Tomatoes: KES 100/kg</li>
+                    <li>Sukuma Wiki: KES 50/bunch</li>
+                    <li>Green Maize: KES 20/cob</li>
+                    <li>Bird’s Eye Chilies: KES 200/kg</li>
+                    <li>Amaranth: KES 60/bunch</li>
+                    <li>Mint: KES 30/bunch</li>
+                    <li>Soybeans: KES 90/kg</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="category">
+            <img src="images/avocados.jpg" alt="Avocados">
+            <div class="product-list">
+                <h3>Export Crops</h3>
+                <ul>
+                    <li>Tea: KES 300/kg</li>
+                    <li>Coffee: KES 500/kg</li>
+                    <li>Cut Flowers (Roses, Carnations, Summer Flowers): KES 100/bunch</li>
+                    <li>Avocados: KES 30/each</li>
+                    <li>Mangoes: KES 20/each</li>
+                    <li>Citrus Fruits (Oranges, Lemons): KES 15/each</li>
+                    <li>Dragon Fruits: KES 150/kg</li>
+                    <li>Pineapples: KES 50/each</li>
+                    <li>Bananas: KES 10/each</li>
+                    <li>Peas: KES 120/kg</li>
+                    <li>Beans: KES 100/kg</li>
+                    <li>Mange Tout: KES 150/kg</li>
+                    <li>Pyrethrum: KES 400/kg</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="category">
+            <img src="images/milk.jpg" alt="Milk">
+            <div class="product-list">
+                <h3>Livestock & Dairy</h3>
+                <ul>
+                    <li>Eggs: KES 15/each</li>
+                    <li>Milk: KES 50/litre</li>
+                    <li>Cheese: KES 800/kg</li>
+                    <li>Butter: KES 600/kg</li>
+                    <li>Beef: KES 500/kg</li>
+                    <li>Goat Meat: KES 600/kg</li>
+                    <li>Fish (Freshwater): KES 300/kg</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="category">
+            <img src="images/honey.jpg" alt="Honey">
+            <div class="product-list">
+                <h3>Other Products</h3>
+                <ul>
+                    <li>Honey: KES 500/kg</li>
+                    <li>Macadamia Nuts: KES 1,000/kg</li>
+                    <li>Cashew Nuts: KES 900/kg</li>
+                    <li>Spirulina: KES 2,000/kg</li>
+                    <li>Black Soldier Larvae (for Chicken Feed): KES 200/kg</li>
+                </ul>
+            </div>
+        </div>
+
+        <p><a href="https://wa.me/+14155238886">Chat with us on WhatsApp to place an order!</a></p>
+    </div>
+
+    <div class="section">
+        <h2>Smart Farming Insights</h2>
+        <p>Using IoT sensors and AI, we provide real-time data on soil health, weather, and crop conditions.</p>
+        <p>Example: Plant tomatoes now for a 20% higher yield based on current weather patterns.</p>
+    </div>
+
+    <div class="section">
+        <h2>Transparent Supply Chain</h2>
+        <p>Our blockchain ensures every transaction is traceable, from farm to table.</p>
+        <p>Check your order’s journey on our blockchain ledger (coming soon).</p>
+    </div>
+
+    <div class="section">
+        <h2>Global Market Access</h2>
+        <p>We connect Kenyan farmers to international buyers through platforms like Alibaba.</p>
+        <p><a href="https://www.alibaba.com">Explore our products on Alibaba</a></p>
+    </div>
 </body>
 </html>
